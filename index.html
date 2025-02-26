@@ -1,0 +1,601 @@
+<!DOCTYPE >
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Douxx portfolio" />
+		<meta property="og:description" content="Heyo !!!" />
+		<meta property="og:title" content="ζDouxx.tech" />
+		<meta property="og:type" content="website" />
+		<link rel="canonical" href="https://douxx.tech" />
+		<meta property="og:site_name" content="@douxxpi" />
+		<meta
+			property="og:image"
+			content="https://douxx.tech/public/Douxx_dev.png" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="language" content="English" />
+		<meta name="author" content="Douxx" />
+		<meta name="view-transition" content="same-origin" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap"
+			rel="stylesheet" />
+		<link rel="icon" href="./public/icons/icon.png" type="image/png" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link
+			href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+			rel="stylesheet"
+			crossorigin />
+		<title>Douxx</title>
+	</head>
+	<body oncontextmenu="return false;">
+		
+		<div class="container">
+			<div class="profile-border box-color">
+				<div class="profile box-color">
+					<div class="banner">
+						<img
+							loading="lazy"
+							id="banner-image"
+							src="./public/banner.webp"
+							alt="" />
+					</div>
+					<div class="main-header">
+						<div class="image">
+							<div class="avatar">
+								<img
+									loading="lazy"
+									class="box-color"
+									id="avatar-image"
+									alt=""
+									aria-hidden="true"
+									src="./public/av.webp" />
+								<img
+									loading="lazy"
+									class="avatar-decoration"
+									src="./public/cat.webp"
+									alt="" />
+								<div class="status box-color tooltip">
+									<img
+										id="status-image"
+										src="./public/status/offline.svg"
+										alt="" />
+								</div>
+							</div>
+							<!-- </button> -->
+						</div>
+						<div class="badges box-color" id="badges">
+							<div class="badges-right">
+								<a class="tooltip" aria-label="HypeSquad Balance">
+									<img alt=" " src="./public/badges/hypesquad-balance.svg"
+								/></a>
+								<a class="tooltip" aria-label="Active Developer">
+									<img alt=" " src="./public/badges/active-developer.svg"
+								/></a>
+								<a class="tooltip" aria-label="Subscriber since 11 Feb, 2024">
+									<img alt=" " src="./public/badges/nitro.svg"
+								/></a>
+								<a
+									class="tooltip"
+									aria-label="Server boosting since 1 Oct 2024">
+									<img alt=" " src="./public/badges/boost-2-month.svg"
+								/></a>
+								<a
+									class="tooltip"
+									aria-label="Originally known as Black | Douxx#7895">
+									<img alt=" " src="./public/badges/legacy-username.svg"
+								/></a>
+								<a
+									class="tooltip"
+									aria-label="Completed a quest">
+									<img alt=" " src="./public/badges/quests.png"
+								/></a>
+							</div>
+							<div class="badges-left"></div>
+							<!-- badges list-->
+							<!-- -->
+						</div>
+					</div>
+					<div class="card box-color">
+						<div class="name-box">
+							<span class="display-name">ζĎoũxx 🦑</span>
+							<button
+								class="id username"
+								id="textToCopy"
+								aria-label="Click to copy!"
+								onclick="copyToClipboard()"></button>
+							<span class="pronouns">2 + 2 = 7 (he)</span>
+							<div class="custom-status">
+								<img id="custom-status-emoji" />
+								<p class="custom-status-text"></p>
+							</div>
+						</div>
+						<div class="body">
+							<div class="content">
+								<div class="about-section">
+									<div class="title-body">ABOUT ME</div>
+									<!-- text -->
+									<span class="about-me"
+										>I'm Douxx, from <div class="flag">
+											<img
+												src="./public/flag_ch.svg" />
+										</div>
+										Switzerland! I'm a 15 y.o. IT student  and &lt;/&gt; developer in my free time. <br>
+										I also enjoy playing video games 🎮, reading mangas 🗾 and, very occasionally, studying 📚. <br>
+										Btw check my projects on <a href="https://dpip.lol" target="_blank">dpip.lol</a> !<br>
+										<br>
+										Subdomains on douxx.tech: <br>
+										<a href="https://cdn.douxx.tech">Dtech CDN »</a> <br>
+										<a href="https://ec.douxx.tech">EaglerCraft 1.5.2 »</a> <br>
+										<a href="https://git.douxx.tech">Github short-domain »</a> <br>
+										<a href="https://isitdown.douxx.tech">IsItDown »</a> <br>
+										<a href="https://nicknames.douxx.tech">Douxx Nicknames »</a> <br>
+										<a href="https://douxx.tech/proxy">Dtech Proxy »</a> <br>
+										<a href="https://sc.douxx.tech">Strange Creature »</a> <br>
+									
+									<!-- -->
+								</div>
+								<div class="title-body">ROLES</div>
+								<div class="roles-body">
+									<!-- roles list -->
+									<div class="rol rosepink">
+										<i class="fas fa-circle"></i>
+										<span>Dev</span>
+									</div>
+									<div class="rol green">
+										<i class="fas fa-circle"></i>
+										<span>IT Student</span>
+									</div>
+									<div class="rol blue">
+										<i class="fas fa-circle"></i>
+										<span>Popular asf</span>
+									</div>
+									<!-- -->
+								</div>
+								<div class="divider social-divider"></div>
+								<div class="title-body">CONNECTIONS</div>
+
+								<div class="socials">
+									<!-- social list -->
+									<div class="column">
+											<a
+												class="platform"
+												href="https://discord.com/users/1117912749146656790"
+												rel="noreferrer noopener"
+												target="_blank">
+												<img
+													class="platform-icon"
+													alt=" "
+													aria-hidden="true"
+													src="./public/platforms/discord.svg" />
+												<div class="text-base platform-username">
+													@douxx.xyz
+												</div>
+												<div>
+													<img
+														alt=" "
+														id="link"
+														aria-hidden="true"
+														src="./public/icons/link.svg"
+														class="connect" />
+												</div>
+											</a>
+										<a
+											class="platform"
+											href="https://github.com/douxxtech"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/github.svg" />
+											<div class="text-base platform-username">
+												@douxxu
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://tiktok.com/@douxxpi"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/tiktok.svg" />
+											<div class="text-base platform-username">
+												@douxxpi
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://npmjs.com/~douxx"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/npmjs.webp" />
+											<div class="text-base platform-username">
+												~douxx
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://2peek.me"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												2peek.me
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://dpip.lol"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												dpip.lol
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://togp.eu"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												togp.eu
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://getan.email"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												getan.email
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://arizaki.xyz"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												arizaki.xyz
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://noskid.today"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												noskid.today
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+									</div>
+									<div class="column">
+										<a
+											class="platform"
+											href="https://kill.services/visit"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												douxx.tech
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://dbo.one"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												dbo.one
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://douxx.xyz"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												douxx.xyz
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://kill.services"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												kill.services
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://piwave.xyz"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												piwave.xyz
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://we.provide.kill.services"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												we.provide.kill.services
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://kawaii.rent"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												kawaii.rent
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://imaginethisbeingan.email"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												imaginethisbeingan.email
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://exrazer.xyz"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/domain.webp" />
+											<div class="text-base platform-username">
+												exrazer.xyz
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										
+
+									</div>
+									<!-- -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="alert-overlay"></div>
+
+		<script async src="./scripts/script.js"></script>
+		<script defer src="./scripts/sub.js"></script>
+		<script src="./scripts/dontleave.js"></script>
+
+	</body>
+</html>
